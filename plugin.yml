@@ -1,0 +1,25 @@
+name: SurvivalSMP
+version: 2.0.0
+main: com.survivalsmp.SurvivalSMP
+api-version: '26.1.2'
+author: SurvivalSMP
+description: Professional SMP economy, shop and custom weapons
+commands:
+  bal:
+    aliases: [balance]
+  money:
+  shop:
+  sell:
+  sellall:
+  playtime:
+    description: Show your total playtime
+  leaderboard:
+    description: Show the top playtime players
+    aliases: [lb, top]
+  giveweapon:
+    description: Give a custom weapon to a player
+    permission: survivalsmp.admin
+permissions:
+  survivalsmp.admin:
+    description: Allows giving custom weapons
+    default: op
