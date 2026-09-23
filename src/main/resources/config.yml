@@ -1,0 +1,5 @@
+# SurvivalSMP settings
+# Custom weapons are intentionally only obtainable through /shop or the OP-only /giveweapon command.
+# Playtime rewards are defined in the plugin source as:
+# 30m=$100, 1h=$250, 2h=$600, 5h=$1500, 10h=$4000, 20h=$10000
+# Player data is saved in plugins/SurvivalSMP/data.yml
